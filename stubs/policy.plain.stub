@@ -1,0 +1,17 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedUserModel }};
+
+class {{ class }}
+{
+    /**
+     * Create a new policy instance
+     * @return void
+     */
+    public function __construct()
+    {
+        // Your Code Here...
+    }
+}

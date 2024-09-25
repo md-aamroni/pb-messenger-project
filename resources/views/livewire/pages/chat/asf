@@ -1,0 +1,59 @@
+<div class="messages"></div>
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/1.jpg">
+        <x:chats-profile name="John Smith" :time="now()->format('h:i A')" />
+        <x:content.reply converse="Hi" side="L" />
+    </x:chats-content>
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/2.jpg" side="R">
+        <x:chats-profile name="Kabir Khan" :time="now()->addMinute()->format('h:i A')" side="R" />
+        <x:content.reply converse="Hello, Thank you for your schedule." side="R" />
+    </x:chats-content>
+    <x:chats-divider :date="now()->addHours(3)->diffForHumans()" />
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/1.jpg">
+        <x:chats-profile name="John Smith" :time="now()->addMinutes(2)->format('h:i A')" />
+        <x:content.reply converse="Would you like to give me a voice record?" />
+    </x:chats-content>
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/2.jpg" side="R">
+        <x:chats-profile name="Kabir Khan" :time="now()->addMinutes(4)->format('h:i A')" side="R" />
+        <x:content.voice converse="1:10" side="R" />
+    </x:chats-content>
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/1.jpg">
+        <x:chats-profile name="John Smith" :time="now()->addMinutes(5)->format('h:i A')" />
+        <x:content.video converse="https://www.youtube.com/watch?v=JhchHbPlmX8" />
+    </x:chats-content>
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/2.jpg" side="R">
+        <x:chats-profile name="Kabir Khan" :time="now()->addMinutes(4)->format('h:i A')" side="R" />
+        <x:content.video converse="https://www.youtube.com/watch?v=JhchHbPlmX8" side="R" />
+    </x:chats-content>
+    <x:chats-divider :date="now()->addHours(2)->diffForHumans()" />
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/2.jpg" side="R">
+        <x:chats-profile name="Kabir Khan" :time="now()->addMinutes(7)->format('h:i A')" side="R" />
+        <x:content.media side="R" />
+    </x:chats-content>
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/1.jpg">
+        <x:chats-profile name="John Smith" :time="now()->addMinutes(5)->format('h:i A')" />
+        <x:content.media />
+    </x:chats-content>
+    <x:chats-divider :date="now()->addHour()->diffForHumans()" />
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/1.jpg">
+        <x:chats-profile name="John Smith" :time="now()->addMinutes(5)->format('h:i A')" />
+        <x:content.files />
+        <x:content.emoji />
+    </x:chats-content>
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/1.jpg" side="R">
+        <x:chats-profile name="John Smith" :time="now()->addMinutes(10)->format('h:i A')" side="R" />
+        <x:content.files side="R" />
+        <x:content.emoji />
+    </x:chats-content>
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/1.jpg">
+        <x:chats-profile name="John Smith" :time="now()->addMinutes(2)->format('h:i A')" />
+        <x:content.reply converse="Hey, have you heard about the importance pf user research in our design process?" />
+    </x:chats-content>
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/1.jpg">
+        <x:content.press />
+    </x:chats-content>
+    @if(isset($isListen) && $isListen === true)
+    <x:chats-content icon="https://randomuser.me/api/portraits/thumb/men/1.jpg" side="R">
+        <x:content.press />
+    </x:chats-content>
+    @endif
+</div>

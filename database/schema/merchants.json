@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "name": "Pilot Bazar Automobiles",
+        "email": "pilotbazar@gmail.com",
+        "mobile": "8801969944400",
+        "role": "partner"
+    },
+    {
+        "id": 6,
+        "name": "Fair Automobiles",
+        "email": "fairautomobiles@gmail.com",
+        "mobile": "01740648932",
+        "role": "partner"
+    },
+    {
+        "id": 7,
+        "name": "S.A.C Corporation",
+        "email": "sadiul_saccorp@yahoo.com",
+        "mobile": "01985664675",
+        "role": "partner"
+    },
+    {
+        "id": 8,
+        "name": "Green Valley Automobiles",
+        "email": "gvalleyrazu@gmail.com",
+        "mobile": "01741541870",
+        "role": "partner"
+    },
+    {
+        "id": 11,
+        "name": "Wheel Deals",
+        "email": "wheeldeals03@gmail.com",
+        "mobile": "01799061394",
+        "role": "partner"
+    },
+    {
+        "id": 15,
+        "name": "Safin Auto",
+        "email": "laimaenterprise@gmail.com",
+        "mobile": "01738-383300",
+        "role": "partner"
+    },
+    {
+        "id": 17,
+        "name": "Global Emporium@gmail.com",
+        "email": "global.empo@gmail.com",
+        "mobile": "01976 767486",
+        "role": "partner"
+    },
+    {
+        "id": 18,
+        "name": "Habib & Brothers",
+        "email": "habib.dr257@gmail.com",
+        "mobile": "8801717538781",
+        "role": "partner"
+    },
+    {
+        "id": 26,
+        "name": "Engr Ariful Islam",
+        "email": "engr.ariful.inbox37@gmail.com",
+        "mobile": "01327804058",
+        "role": "member"
+    },
+    {
+        "id": 27,
+        "name": "Maxima Automobiles",
+        "email": "MaximaAutomobiles@gmail.com",
+        "mobile": "+8801799224466",
+        "role": "partner"
+    },
+    {
+        "id": 28,
+        "name": "Xoom Auto",
+        "email": "azad@xoomauto.com.bd",
+        "mobile": "8801704188540",
+        "role": "partner"
+    },
+    {
+        "id": 29,
+        "name": "Rana Automobiles",
+        "email": "ranaautomobile08@gmail.com",
+        "mobile": "8801718081326",
+        "role": "partner"
+    },
+    {
+        "id": 30,
+        "name": "Perks Auto (Major Arshad)",
+        "email": "perks.bd1@gmail.com",
+        "mobile": "01914-402240",
+        "role": "partner"
+    },
+    {
+        "id": 31,
+        "name": "Shawon Enterprise",
+        "email": "shawonenterprise24bd@gmail.com",
+        "mobile": "01845550714",
+        "role": "member"
+    },
+    {
+        "id": 32,
+        "name": "Shohan",
+        "email": "skshohanur9@gmail.com",
+        "mobile": "01611790442",
+        "role": "member"
+    },
+    {
+        "id": 33,
+        "name": "Merchant Auto",
+        "email": "pilotbazar.importer@gmail.com",
+        "mobile": "01711106542",
+        "role": "partner"
+    },
+    {
+        "id": 34,
+        "name": "Drive & Drive Auto",
+        "email": "Drive&drive@gmail.com",
+        "mobile": "01729778059",
+        "role": "partner"
+    },
+    {
+        "id": 35,
+        "name": "Tokyo Car House",
+        "email": "TokyoCarHouse@gmail.com",
+        "mobile": "01329680031",
+        "role": "partner"
+    },
+    {
+        "id": 36,
+        "name": "AHQ Automobiles",
+        "email": "Ahqautomobiles@gmail.com",
+        "mobile": "8801700647096",
+        "role": "partner"
+    },
+    {
+        "id": 37,
+        "name": "Molla Traders (Automobiles)",
+        "email": "mollaautomobiles@gmail.com",
+        "mobile": "8801911067646",
+        "role": "partner"
+    },
+    {
+        "id": 38,
+        "name": "Demo Client",
+        "email": "demo@gmail.com",
+        "mobile": "0177487484474",
+        "role": "member"
+    },
+    {
+        "id": 39,
+        "name": "test123",
+        "email": "kohise2065@iteradev.com",
+        "mobile": "01877654675",
+        "role": "member"
+    },
+    {
+        "id": 40,
+        "name": "Md Shamim Hasan",
+        "email": "Mdshamimhasan8100@gmail.com",
+        "mobile": "01968749777",
+        "role": "member"
+    }
+]

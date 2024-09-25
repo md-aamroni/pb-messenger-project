@@ -1,0 +1,79 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedModel }};
+use {{ rootNamespace }}Http\Controllers\Controller;
+use {{ namespacedRequests }}
+
+class {{ class }} extends Controller
+{
+    /**
+     * Display a listing of the resource
+     * @return void
+     */
+    public function index()
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Show the form for creating a new resource
+     * @return void
+     */
+    public function create()
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Store a newly created resource in storage
+     * @param {{ storeRequest }} $request
+     * @return void
+     */
+    public function store({{ storeRequest }} $request)
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Display the specified resource
+     * @param {{ model }} ${{ modelVariable }}
+     * @return void
+     */
+    public function show({{ model }} ${{ modelVariable }})
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Show the form for editing the specified resource
+     * @param {{ model }} ${{ modelVariable }}
+     * @return void
+     */
+    public function edit({{ model }} ${{ modelVariable }})
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Update the specified resource in storage
+     * @param {{ updateRequest }} $request
+     * @param {{ model }} ${{ modelVariable }}
+     * @return void
+     */
+    public function update({{ updateRequest }} $request, {{ model }} ${{ modelVariable }})
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Remove the specified resource from storage
+     * @param {{ model }} ${{ modelVariable }}
+     * @return void
+     */
+    public function destroy({{ model }} ${{ modelVariable }})
+    {
+        // Your Code Here...
+    }
+}

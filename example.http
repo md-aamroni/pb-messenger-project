@@ -1,0 +1,5 @@
+
+GET https://api.escuelajs.co/api/v1/products
+Accept: application/json
+Content-Type: application/json
+

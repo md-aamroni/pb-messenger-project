@@ -1,0 +1,28 @@
+<?php
+
+namespace {{ namespace }};
+
+use Closure;
+use Illuminate\View\Component;
+use Illuminate\Contracts\View\View;
+
+class {{ class }} extends Component
+{
+    /**
+     * Create a new component instance
+     * @return void
+     */
+    public function __construct()
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Get the view or contents that represent the component
+     * @return View|Closure|string
+     */
+    public function render(): View|Closure|string
+    {
+        return {{ view }};
+    }
+}

@@ -1,0 +1,59 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class {{ class }} extends Controller
+{
+    /**
+     * Display a listing of the resource
+     * @return void
+     */
+    public function index()
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Store a newly created resource in storage
+     * @param Request $request
+     * @return void
+     */
+    public function store(Request $request)
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Display the specified resource
+     * @param string $id
+     * @return void
+     */
+    public function show(string $id)
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Update the specified resource in storage
+     * @param Request $request
+     * @param string $id
+     * @return void
+     */
+    public function update(Request $request, string $id)
+    {
+        // Your Code Here...
+    }
+
+    /**
+     * Remove the specified resource from storage
+     * @param string $id
+     * @return void
+     */
+    public function destroy(string $id)
+    {
+        // Your Code Here...
+    }
+}
